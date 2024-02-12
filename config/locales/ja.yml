@@ -1,0 +1,17 @@
+ja:
+  title: タイトル
+  memo: メモ
+  author: 著者
+  picture: 写真
+
+  index_page_title: 書籍一覧
+  new_page_title: 新規書籍登録
+  edit_page_title: 書籍編集
+
+  to_new_page: 新しい書籍を登録する
+  to_edit_page: この書籍を編集する
+  to_detail_page: この書籍の詳細を見る
+  to_index_page: 書籍一覧に戻る
+
+  destory: 削除
+  update: 更新
