@@ -1,17 +1,33 @@
 en:
-  title: Title
-  memo: Memo
-  author: Author
-  picture: Picture
-
-  index_page_title: Books
-  new_page_title: New book
-  edit_page_title: Editing book
-
-  to_new_page: New book
-  to_edit_page: Edit this book
-  to_detail_page: Show this book
-  to_index_page: Back to books
-
-  destory: Destroy this book
-  update: Update book
+  title:
+    index:
+      html: <h1>Index</h1>
+    new:
+      html: <h1>New</h1>
+    edit:
+      html: <h1>Edit</h1>
+  label:
+    book:
+      title: Title
+      memo: Memo
+      author: Author
+      picture: Picture
+  item:
+    book:
+      title:
+        html: <strong>Title:</strong>
+      memo:
+        html: <strong>Memo</strong>
+      author:
+        html: <strong>Author</strong>
+      picture:
+        html: <strong>Picture</strong>
+  button:
+    navigation:
+      index: Index
+      new: New
+      edit: Edit
+      detail: Detail
+    action:
+      destory: Destroy
+      update: Update

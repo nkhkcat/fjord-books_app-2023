@@ -1,17 +1,33 @@
 ja:
-  title: タイトル
-  memo: メモ
-  author: 著者
-  picture: 写真
-
-  index_page_title: 書籍一覧
-  new_page_title: 新規書籍登録
-  edit_page_title: 書籍編集
-
-  to_new_page: 新しい書籍を登録する
-  to_edit_page: この書籍を編集する
-  to_detail_page: この書籍の詳細を見る
-  to_index_page: 書籍一覧に戻る
-
-  destory: 削除
-  update: 更新
+  title:
+    index:
+      html: <h1>一覧</h1>
+    new:
+      html: <h1>新規登録</h1>
+    edit:
+      html: <h1>編集</h1>
+  label:
+    book:
+      title: タイトル
+      memo: メモ
+      author: 著者
+      picture: 写真
+  item:
+    book:
+      title:
+        html: <strong>タイトル:</strong>
+      memo:
+        html: <strong>メモ</strong>
+      author:
+        html: <strong>著者</strong>
+      picture:
+        html: <strong>写真</strong>
+  button:
+    navigation:
+      index: 一覧
+      new: 登録
+      edit: 編集
+      detail: 詳細
+    action:
+      destory: 削除
+      update: 更新

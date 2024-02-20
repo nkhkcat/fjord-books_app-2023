@@ -1,9 +1,9 @@
-<h1><%= t :new_page_title %></h1>
+<%= t("title.new.html") %>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-  <%= link_to t('to_index_page'), books_path %>
+  <%= link_to t("button.navigation.index"), books_path %>
 </nav>
