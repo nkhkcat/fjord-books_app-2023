@@ -7,21 +7,19 @@ en:
     edit:
       html: <h1>Edit</h1>
   label:
-    book:
-      title: Title
-      memo: Memo
-      author: Author
-      picture: Picture
+    title: Title
+    memo: Memo
+    author: Author
+    picture: Picture
   item:
-    book:
-      title:
-        html: <strong>Title:</strong>
-      memo:
-        html: <strong>Memo</strong>
-      author:
-        html: <strong>Author</strong>
-      picture:
-        html: <strong>Picture</strong>
+    title:
+      html: <strong>Title:</strong>
+    memo:
+      html: <strong>Memo</strong>
+    author:
+      html: <strong>Author</strong>
+    picture:
+      html: <strong>Picture</strong>
   button:
     navigation:
       index: Index

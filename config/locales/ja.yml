@@ -7,21 +7,19 @@ ja:
     edit:
       html: <h1>編集</h1>
   label:
-    book:
-      title: タイトル
-      memo: メモ
-      author: 著者
-      picture: 写真
+    title: タイトル
+    memo: メモ
+    author: 著者
+    picture: 写真
   item:
-    book:
-      title:
-        html: <strong>タイトル:</strong>
-      memo:
-        html: <strong>メモ</strong>
-      author:
-        html: <strong>著者</strong>
-      picture:
-        html: <strong>写真</strong>
+    title:
+      html: <strong>タイトル:</strong>
+    memo:
+      html: <strong>メモ</strong>
+    author:
+      html: <strong>著者</strong>
+    picture:
+      html: <strong>写真</strong>
   button:
     navigation:
       index: 一覧

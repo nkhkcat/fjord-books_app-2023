@@ -1,21 +1,21 @@
 <div id="<%= dom_id book %>">
   <p>
-    <%= t("item.book.title.html") %>
+    <%= t("item.title.html") %>
     <%= book.title %>
   </p>
 
   <p>
-    <%= t("item.book.memo.html") %>
+    <%= t("item.memo.html") %>
     <%= book.memo %>
   </p>
 
   <p>
-    <%= t("item.book.author.html") %>
+    <%= t("item.author.html") %>
     <%= book.author %>
   </p>
 
   <p>
-    <%= t("item.book.picture.html") %>
+    <%= t("item.picture.html") %>
     <%= image_tag(book.picture_url) if book.picture.present? %>
   </p>
 
