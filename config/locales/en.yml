@@ -1,25 +1,20 @@
 en:
-  title:
+  activerecord:
+    models:
+      book:
+    attributes:
+      book:
+        title: Title
+        memo: Memo
+        author: Author
+        picture: Picture
+  page:
     index:
-      html: <h1>Index</h1>
+      title: Index
     new:
-      html: <h1>New</h1>
+      title: New
     edit:
-      html: <h1>Edit</h1>
-  label:
-    title: Title
-    memo: Memo
-    author: Author
-    picture: Picture
-  item:
-    title:
-      html: <strong>Title:</strong>
-    memo:
-      html: <strong>Memo</strong>
-    author:
-      html: <strong>Author</strong>
-    picture:
-      html: <strong>Picture</strong>
+      title: Edit
   button:
     navigation:
       index: Index
